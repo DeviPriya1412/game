@@ -1,0 +1,44 @@
+body{
+  background-image: url('https://as2.ftcdn.net/v2/jpg/02/51/49/71/1000_F_251497107_gQ5IhqFaQLB5Q8MAadH300E1CjZakUmG.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container
+{
+  margin:200px 500px 200px 600px;
+  text-align: center;
+  background-image: url('https://media2.giphy.com/media/l378khQxt68syiWJy/200w.gif?cid=790b76112ln2gr6qukbq41djip30tvv7h77q3hf6el34b9cy&ep=v1_gifs_search&rid=200w.gif&ct=g');
+  
+}
+h2,p ,input{
+  padding :10px;
+  margin:20px;
+  width:80%;
+}
+#btn
+{
+  padding:10px;
+  margin:10px;
+  width:60%;
+  background-color:brown;
+}
+h2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(18, 18, 18);
+text-shadow: -1px 0 rgb(210, 204, 201), 0 1px rgb(249, 246, 246), 1px 0 rgb(251, 248, 248), 0 -1px rgb(194, 214, 203);
+width:30px;
+background-color:green;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(red,blue,green,pink,orange);
+  border:solid;
+  color: rgb(18, 18, 18);
+text-shadow: -1px 0 rgb(210, 204, 201), 0 1px rgb(249, 246, 246), 1px 0 rgb(251, 248, 248), 0 -1px rgb(194, 214, 203);
+ }
+#btn:active{
+background-color: darkgreen;
+transform: scale(1.5);
+}
+
